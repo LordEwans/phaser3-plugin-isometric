@@ -1,4 +1,4 @@
-This is a **WIP** fork of [lewster32/phaser-plugin-isometric](https://github.com/lewster32/phaser-plugin-isometric) to make it work with Phaser 3.
+This is a **WIP** fork of [phaser-plugin-isometric](https://github.com/lewster32/phaser-plugin-isometric), refactored to make it work with Phaser 3.5+.
 
 ## Description
 Phaser Isometric is a comprehensive axonometric plugin for Phaser which provides an API for handling axonometric projection of assets in 3D space to the screen.
@@ -14,6 +14,7 @@ Also included is an Arcade-based 3D AABB physics engine, which again is closely 
 * Arcade Physics derived 3D physics engine (**Working, but needs refactoring!**)
 * Helpful debug utilities (**Not working yet!**)
 * Familiar factory methods added to GameObjectFactory and GameObjectCreator so you can do ```scene.add.isoSprite```
+* Refactored to support Phaser 3.5+
 
 ## Examples
 Check out the [docs](https://github.com/sebashwa/phaser3-plugin-isometric/tree/master/docs) folder and the [github-page](https://sebashwa.github.io/phaser3-plugin-isometric/)
